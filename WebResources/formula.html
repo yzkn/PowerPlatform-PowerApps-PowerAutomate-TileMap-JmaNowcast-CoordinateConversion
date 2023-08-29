@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="author" content="YA-androidapp(https://github.com/yzkn)">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <h1>経緯度→ピクセル座標</h1>
+
+  <p>
+    $$ \begin{align}
+    L&=\frac{180}{\pi}\sin^{-1}\left(\tanh(\pi)\right)\\
+    &=85.05112878
+    \end{align}$$
+  </p>
+
+  <br>
+  <br>
+  <br>
+
+  <p>
+    $$ \begin{align}
+    p(x, z) &= 2^{z+7}\left(\frac{x}{180}+1\right)
+    \end{align}$$
+  </p>
+
+  <br>
+  <br>
+
+  <p>
+    $$ \begin{align}
+    q(y, z) &=
+    \frac{2^{z+7}}{\pi}\left(-\frac{1}{2}\ln\frac{1+\sin(\frac{\pi}{180}y)}{1-\sin(\frac{\pi}{180}y)}+\frac{1}{2}\ln\frac{1+\sin(\frac{\pi}{180}L)}{1-\sin(\frac{\pi}{180}L)}\right)\\
+    \end{align}$$
+  </p>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <p align="right">
+    <a target="_blank" href="http://hosohashi.blog59.fc2.com/blog-entry-5.html">グーグルマップ（Google Maps） の座標間変換式について（１）</a>
+  </p>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+
+</html>
