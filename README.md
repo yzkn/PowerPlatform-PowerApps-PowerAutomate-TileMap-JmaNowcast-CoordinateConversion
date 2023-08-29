@@ -4,4 +4,11 @@
 
 ---
 
+## 参考文献
+
+- タイル地図の座標変換
+  - [グーグルマップ（Google Maps） の座標間変換式について（１）](http://hosohashi.blog59.fc2.com/blog-entry-5.html)
+
+---
+
 Copyright (c) 2023 YA-androidapp(https://github.com/yzkn) All rights reserved.
